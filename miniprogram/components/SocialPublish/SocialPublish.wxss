@@ -1,0 +1,2 @@
+@import '../SocialCircle/style/main.wxss';
+@import '../SocialCircle/style/icon.wxss';

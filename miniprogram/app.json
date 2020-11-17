@@ -1,0 +1,61 @@
+{
+  "pages": [
+    "pages/my/my",
+    "pages/index/index",
+    "pages/search/search",
+    "pages/list/list",
+    "pages/goods/goods",
+    "pages/publish/publish",
+    "pages/my/favorites/favorites",
+    "pages/my/goods/goods",
+    "pages/my/goods/edit/edit",
+    "custom-tab-bar/index",
+    "pages/message/message",
+    "pages/square/square"
+  ],
+  "window": {
+    "backgroundColor": "#000000",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#FFA500",
+    "navigationBarTitleText": "校二圈",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "custom": true,
+    "color": "#000000",
+    "selectedColor": "#000000",
+    "backgroundColor": "#000000",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "/images/tabbar/index-0.png",
+        "selectedIconPath": "/images/tabbar/index-1.png"
+      },
+      {
+        "pagePath": "pages/square/square",
+        "text": "广场",
+        "iconPath": "/images/tabbar/square-0.png",
+        "selectedIconPath": "/images/tabbar/square-1.png"
+      },
+      {
+        "pagePath": "pages/publish/publish",
+        "text": "发布",
+        "iconPath": "/images/tabbar/add-0.png",
+        "selectedIconPath": "/images/tabbar/add-1.png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "我的",
+        "iconPath": "/images/tabbar/my-0.png",
+        "selectedIconPath": "/images/tabbar/my-1.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json",
+  "permission": {
+    "scope.userLocation": {
+      "desc": "需要获取您的位置"
+    }
+  }
+}

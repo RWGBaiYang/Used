@@ -1,0 +1,16 @@
+<view>
+<view><textarea class="zhuti" type="textarea" name="Label" confirm-type="done" bindinput="liuyan"></textarea></view>
+  
+  <button type="primary" bindtap="addLabel">留言</button>
+</view>
+<block wx:for="{{logs}}" wx:key="key" name="block">
+  <view class="userinfo">
+  <view > 
+    <image class="userinfo-avatar" src="{{item.pic}}"></image>
+  </view>
+  <text class="name">{{item.name}}说:</text></view>
+  <text class="text">{{item.label}}</text>
+  <view>
+  <text class="time">{{item.date}}</text>
+  </view>
+</block>

@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "sc":"../../components/SocialCircle/SocialCircle"
+  },
+  "enablePullDownRefresh": true
+}
